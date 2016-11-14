@@ -1,0 +1,6 @@
+-   id: check-no-commit
+    name: Check No Commit
+    description: Check that none of the commits contain the frase "nocommit"
+    entry: check-nocommit.sh
+    language: script
+    files:\.(js|rb|md|py|sh|txt|yaml|yml|c|cpp|c++|cxx|h|hpp|el)$
